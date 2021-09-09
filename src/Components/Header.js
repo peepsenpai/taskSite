@@ -29,7 +29,7 @@ function Header() {
                         <div className="col-lg-6">
                             <div className="as_right_info">
                                 <div className="as_user">
-                                    <NavLink to="index.html" className="as_btn apoint">Appointment</NavLink>
+                                    <NavLink to="index.html" className="as_btn apoint btn-warning">Appointment</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ function Header() {
                                             </ul>
                                         </li>
                                         <li><NavLink to="/tickets">Tickets</NavLink></li>
-                                        <li><NavLink to="/blog">blog</NavLink> </li>
+                                        <li><NavLink to="/blog">Why Us</NavLink> </li>
                                         <li><NavLink to="/contact">contact</NavLink></li>
                                     </ul>
                                 </div>

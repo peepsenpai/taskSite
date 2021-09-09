@@ -504,9 +504,6 @@ background-color:var(--secondary-color);
 .as_cart_list::-webkit-scrollbar {
 width:4px;
 }
-/* .as_cart_list::-webkit-scrollbar-track {
--webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
-} */
 .as_cart_list::-webkit-scrollbar-thumb {
 background-color:#ff6f00;
 outline:#708090 solid 1px;
@@ -570,10 +567,106 @@ outline:#708090 solid 1px;
   border-top: 5px solid transparent;
   border-left:  7px solid var(--dark-color2);
 }
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  color: black;
+}
+
+/* home  */
+.container .left-side span i{
+  font-size: 2.5rem;
+}
+.container .carousel-item{
+  text-align: center;
+  padding: 20px 15px;
+}
+.container .as_banner_detail h1{
+  color: rgb(68, 68, 160);
+}
+.carousel-item p{
+  padding: 10 22px;
+}
 
 /* about  */
 .as_about_wrapper{
   min-height: 100vh;
+}
+.container .as_aboutimg img, .container .as_about_detail{
+  padding: 15px 33px;
+}
+.as_about_detail{
+  text-align: center;
+}
+.as_contact_expert{
+color: rgb(192, 64, 5);
+}
+
+/* services  */
+.service-box{
+  padding-bottom: 15px;
+  margin-bottom: 34px;
+}
+.as_service_img img{
+  max-width: 350px;
+}
+.as_service_box h4{
+  color: rgb(233, 104, 29);
+  font-weight: bold;
+}
+
+/* tickets  */
+.as_pricing_plan .row{
+ align-items: center;
+}
+.as_pricing_box{
+  padding: 12px 23px;
+  border: 1px solid rgb(218, 98, 0);
+  border-radius: 23px;
+}
+.as_pricing_box h1 , .container .as_banner_detail h5{
+  color: rgb(241, 138, 21);
+}
+.as_pricing_box:hover{
+  background-color: rgb(241, 138, 21);
+  border-radius: 23px;
+  color: rgb(255, 255, 255);
+}
+.as_pricing_box:hover > h1{
+  color: white;
+}
+.row  .as_padderTop20{
+  color: rgb(241, 138, 21);
+}
+
+/* blog  */
+.as_whychoose_wrapper{
+  height: 100vh;
+}
+.as_whychoose_wrapper .col-lg-12{
+  padding: .4rem 6rem;
+}
+.container-fluid .row , .contact-box, .as_banner_wrapper img{
+ padding-top: 34px;
+ margin-top: 23px;
+}
+.as_whychoose_wrapper .as_whychoose_box{
+   background-color: rgba(241, 138, 21, .6);
+}
+
+
+/* contact  */
+.contact-box{
+  max-width: 700px;
+  height: 50vh;
+  position: relative;
+  left: 30%;
+}
+.btn-warning{
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.btn-warning:hover{
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 /* foooter */
@@ -581,4 +674,47 @@ outline:#708090 solid 1px;
  position: relative;
   bottom: 0;
   background-color: rgba(22, 19, 19, 0.7);
+}
+.as_footer_wrapper ul ,.as_footer_wrapper p{
+  color: #f3ecc4;
+}
+.as_copyright_wrapper h3{
+  color: rgb(192, 190, 176);
+}
+.as_copyright_wrapper{
+  background-color: rgb(48, 24, 13);
+  border-radius: 20px;
+  padding-top:6px;
+}
+.as_newsletter_box i{
+  position: relative;
+  bottom: 36px;
+  left: 86%;
+  font-size: 25px;
+  cursor: pointer;
+  color: #f4a636;
+  background-color: white;
+}
+
+@media (max-width:1000px){
+  .contact-box{
+    left: 0;
+    padding: 0 12px;
+    margin: 12px 12px;
+  }
+  .as_whychoose_wrapper .col-lg-12{
+    padding: .3rem 1.6rem;
+  }
+  .as_service_img img{
+    max-width: 200px;
+  }
+  .as_service_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+  }
+  .price-box{
+    margin-bottom: 15px;
+  }
 }

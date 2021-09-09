@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import Img from "./img/abt.jpg";
 
 function About() {
     return (
@@ -14,6 +15,7 @@ function About() {
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="as_aboutimg text-right">
+                            <img src={Img} alt="" className="img-fluid img-responsive" />
                         </div> 
                     </div>
                     <div className="col-lg-6 col-md-6">
@@ -25,9 +27,6 @@ function About() {
                             </div>
 
                             <div className="as_contact_expert">
-                                <span className="as_icon">
-                                   
-                                </span>
                                 <span className="as_year_ex">
                                     10
                                 </span>
@@ -36,7 +35,7 @@ function About() {
                                     <h1>Experience</h1>
                                 </div>
                             </div>
-                            <NavLink to="#" className="as_btn">read more</NavLink>
+                            <NavLink to="#" className="as_btn btn-warning">read more</NavLink>
                         </div>
                     </div>
                 </div>
